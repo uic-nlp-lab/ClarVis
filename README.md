@@ -44,19 +44,19 @@ Grounding modality distribution for CRs in `cr_dataset_master.csv`:
 
 | Column | Description |
 | --- | --- |
-| `utterance_id` | Turn identifier within the source dialogue file. |
+| `utterance_id` | Turn identifier within the source dialogue file for a given group-task dialogue. |
 | `utterance` | Dialogue turn text. For system rows, this is the generated visualization caption. |
 | `speaker` | Speaker identifier: `U1` and `U2` are the two users; `S` is the conversational assistant/system. |
 | `utterance_intent` | Utterance-level label. `CR` marks clarification requests. Other labels come from the original dialogue/visualization annotation pipeline, including visualization requests, system visualization outputs, and non-CR dialogue turns. |
 | `cr_directed_at` | For CRs, the target of the clarification request, such as `User`, `System`, or `System/User`; `na` for non-CR rows. |
 | `source_of_response` | Annotation of the response source for CR-related turns where available; `na` when not applicable. |
 | `grounding_modality` | Grounding label for CRs: `A`, `V`, or `K`; `na` for non-CR rows. |
-| `group_id` | Participant group identifier. |
-| `task_id` | Task identifier within a group. |
+| `group_id` | Participant group identifier from the user study described in Bhattacharya et al. (2024). |
+| `task_id` | Task identifier from the user study; each group completed Task 1 and/or Task 2. |
 | `__source` | Original source spreadsheet name. |
 | `turn_index` | Zero-based turn index within the dialogue. |
-| `dialogue_id` | Dialogue identifier in the form `<group_id>_<task_id>`. |
-| `master_utterance_id` | Unique utterance identifier in the master dataset. |
+| `dialogue_id` | Dialogue identifier in the form `<group_id>_<task_id>`; for example, `10_2` refers to Group 10, Task 2. |
+| `master_utterance_id` | Unique utterance identifier in the master dataset in the form `<group_id>_<task_id>_U<turn_number>`; for example, `10_2_U5` refers to the fifth turn from Group 10, Task 2. |
 | `prev_speaker` | Speaker of the immediately preceding turn, when available. |
 | `prev_turn` | Text of the immediately preceding turn, used for +Prev1 context experiments. |
 | `prev2_turn` | Text of the turn two positions before the current turn, used for +Prev2 context experiments. |
@@ -69,8 +69,8 @@ The split files contain the columns used for the text-classification experiments
 
 | Column | Description |
 | --- | --- |
-| `master_utterance_id` | Unique utterance identifier from the master dataset. |
-| `dialogue_id` | Dialogue identifier. |
+| `master_utterance_id` | Unique utterance identifier from the master dataset in the form `<group_id>_<task_id>_U<turn_number>`. |
+| `dialogue_id` | Dialogue identifier in the form `<group_id>_<task_id>`. |
 | `speaker` | Speaker identifier. |
 | `utterance` | Dialogue turn text. |
 | `utterance_intent` | Label used for CR identification. `CR` indicates a clarification request; other labels are treated as non-CR/Rest for the CR-ID task. |
