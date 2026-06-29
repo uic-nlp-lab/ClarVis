@@ -97,6 +97,12 @@ The experiments use three context settings:
 - **+Prev1:** the current utterance plus `prev_turn`.
 - **+Prev2:** the current utterance plus `prev2_turn` and `prev_turn`.
 
+## Citation
+
+The paper introducing ClarVis, *ClarVis: A Dataset of Clarification Requests and Grounding in Collaborative Data Visualization Dialogues*, has been accepted at SIGDIAL 2026.
+
+The BibTeX citation will be added once the proceedings entry is available.
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
