@@ -1,0 +1,831 @@
+master_utterance_id,dialogue_id,speaker,utterance,utterance_intent,grounding_modality
+11_1_U1,11_1,U2,"Alright, so I guess we can ask Artie something.",N,na
+11_1_U2,11_1,U2,Okay.,N,na
+11_1_U3,11_1,U2,"So this is going to be visible all the time, right?",CR,V
+11_1_U4,11_1,U2,"I guess, okay.",N,na
+11_1_U5,11_1,U2,So let's...,N,na
+11_1_U6,11_1,U2,Do I have to call Artie?,CR,K
+11_1_U7,11_1,U2,No.,N,na
+11_1_U8,11_1,U1,I think he hears us.,N,na
+11_1_U9,11_1,U2,Show me the US state.,VR,na
+11_1_U10,11_1,U2,It has a map.,CR,K
+11_1_U11,11_1,U2,I don't know.,N,na
+11_1_U12,11_1,U1,I think he should have this bubble coming up.,N,na
+11_1_U13,11_1,U2,Yeah.,N,na
+11_1_U14,11_1,U2,Can you show me the US map?,VR,na
+11_1_U15,11_1,U2,"I think it's listening, but...",N,na
+11_1_U16,11_1,U2,Alright.,N,na
+11_1_U17,11_1,U1,"Artie, can you show me Illinois map?",VR,na
+11_1_U18,11_1,U2,I don't think you have to call it.,N,na
+11_1_U19,11_1,U1,"Oh, no.",N,na
+11_1_U20,11_1,U2,I should just one of these risk things.,N,na
+11_1_U21,11_1,U2,Show me COVID cases in Illinois in 2020.,VR,na
+11_1_U22,11_1,S,Line Chart of NUM_CASES  vs. Date  Filtered by IL ,NS,na
+11_1_U23,11_1,U1,Wow.,N,na
+11_1_U24,11_1,U1,"I'm really impressed, Artie.",N,na
+11_1_U25,11_1,U1,Thank you.,N,na
+11_1_U26,11_1,U1,I shouldn't interact like...,N,na
+11_1_U27,11_1,U1,Sorry.,N,na
+11_1_U28,11_1,U2,It's nice that you're nice to hear.,N,na
+11_1_U29,11_1,U2,Okay.,N,na
+11_1_U30,11_1,U2,But I want to see a map.,VR,na
+11_1_U31,11_1,U2,I want to see if it has maps.,CR,K
+11_1_U32,11_1,U1,"Oh, he might not have maps.",N,na
+11_1_U33,11_1,U2,Let's sort the states by COVID cases.,Vis,na
+11_1_U34,11_1,U1,Okay.,N,na
+11_1_U35,11_1,U2,Show me US COVID cases in 2020.,VR,na
+11_1_U36,11_1,U2,Let's see what it has.,N,na
+11_1_U37,11_1,S,Line Chart of NUM_CASES  vs. Date ,NS,na
+11_1_U38,11_1,U2,Okay.,N,na
+11_1_U39,11_1,U2,Show me the state with the highest COVID cases in 2020.,VR,na
+11_1_U40,11_1,U2,I don't know why I'm picking a senior every time.,N,na
+11_1_U41,11_1,U2,I want to see what it knows.,N,na
+11_1_U42,11_1,U2,Not this much.,N,na
+11_1_U43,11_1,U2,So we want to find the county.,Vis,na
+11_1_U44,11_1,U2,"Oh, okay.",N,na
+11_1_U45,11_1,U2,We should ask questions about counties.,Vis,na
+11_1_U46,11_1,S,Map of county_type,NS,na
+11_1_U47,11_1,U1,Okay.,N,na
+11_1_U48,11_1,U1,Have I said something?,CR,K
+11_1_U49,11_1,U1,Or maybe we may ask if I can read the task out loud?,CR,K
+11_1_U50,11_1,U1,Okay.,N,na
+11_1_U51,11_1,U2,Show me COVID cases in 2020 by county.,VR,na
+11_1_U52,11_1,S,Line Chart of NUM_CASES  vs. Date Colored by County_type ,NS,na
+11_1_U53,11_1,U2,"Oh, oh.",N,na
+11_1_U54,11_1,U2,Okay.,N,na
+11_1_U55,11_1,U2,"Now we should find that for all years, I guess,",N,na
+11_1_U56,11_1,U2,for the past years.,N,na
+11_1_U57,11_1,U2,"I think this is kind of,",N,na
+11_1_U58,11_1,U2,"because we are interested in the,",N,na
+11_1_U59,11_1,U2,"there are different ways to know,",N,na
+11_1_U60,11_1,U2,why regions and area types in the US.,N,na
+11_1_U61,11_1,U2,"I think this is kind of what we want, right?",CR,V
+11_1_U62,11_1,U2,But we want this for all years.,N,na
+11_1_U63,11_1,U2,If we're interested in the area types.,VR,na
+11_1_U64,11_1,U1,Yes.,N,na
+11_1_U65,11_1,U1,"Also, this is map of county type,",Vis,na
+11_1_U66,11_1,U1,"but we can map by rural type as well,",Vis,na
+11_1_U67,11_1,U1,or by a small city.,VR,na
+11_1_U68,11_1,U2,"Yeah, but you can see now that urban has the highest towards the end of the year in 2020.",N,na
+11_1_U69,11_1,U1,Okay.,N,na
+11_1_U70,11_1,U2,So urban and small city have higher cases in general.,N,na
+11_1_U71,11_1,U1,"Oh, so for each of the categories from A to G,",N,na
+11_1_U72,11_1,U1,we would like to see the same things.,N,na
+11_1_U73,11_1,U2,Yeah.,N,na
+11_1_U74,11_1,U1,Which one of the four?,CR,V
+11_1_U75,11_1,U2,Okay.,N,na
+11_1_U76,11_1,U2,"So we should ask this for from 2019 to 2022, right?",CR,K
+11_1_U77,11_1,U1,December 2019.,N,na
+11_1_U78,11_1,U2,"I mean, we can ask other people.",N,na
+11_1_U79,11_1,U1,"I guess since they have always,",N,na
+11_1_U80,11_1,U1,or have you asked always for the same?,N,na
+11_1_U81,11_1,U2,"2020, yeah.",N,na
+11_1_U82,11_1,U1,ah.Can we say for all period?,CR,K
+11_1_U83,11_1,U2,"Yeah, but you have to ask,",N,na
+11_1_U84,11_1,U2,"you know, from 2019 to 2022, I think.",N,na
+11_1_U85,11_1,U1,"Oh, we should.",N,na
+11_1_U86,11_1,U1,Maybe Arty knows.,N,na
+11_1_U87,11_1,U2,Yeah.,N,na
+11_1_U88,11_1,U1,"Oh, should we?",CR,K
+11_1_U89,11_1,U1,"Oh, please.",N,na
+11_1_U90,11_1,U1,Okay.,N,na
+11_1_U91,11_1,U2,Show me COVID cases by county from 2019 to 2022.,VR,na
+11_1_U92,11_1,U2,"I don't know if it takes longer,",N,na
+11_1_U93,11_1,U2,because sometimes it takes longer to get something.,N,na
+11_1_U94,11_1,U2,"If not, we're going to ask for every year, I guess.",N,na
+11_1_U95,11_1,U1,We can ask for the entire period.,N,na
+11_1_U96,11_1,U1,Maybe he knows what the entire period is.,N,na
+11_1_U97,11_1,U2,"I mean, we can try.",N,na
+11_1_U98,11_1,U1,Okay.,N,na
+11_1_U99,11_1,U1,"Hey, Arty.",N,na
+11_1_U100,11_1,U1,Arty?,CR,A
+11_1_U101,11_1,U1,Is it right?,CR,A
+11_1_U102,11_1,U1,I'm sorry.,N,na
+11_1_U103,11_1,U1,Okay.,N,na
+11_1_U104,11_1,U1,"Hey, Arty, can you please show me the small city map for poverty?",VR,na
+11_1_U105,11_1,S,Map of poverty_rate,NS,na
+11_1_U106,11_1,U1,Should I...,N,na
+11_1_U107,11_1,U1,"Oh, I shouldn't...",N,na
+11_1_U108,11_1,U1,Should I not turn around anymore?,CR,K
+11_1_U109,11_1,U1,Okay.,N,na
+11_1_U110,11_1,U2,We don't know for what period this is.,N,na
+11_1_U111,11_1,U2,I guess I would take...,N,na
+11_1_U112,11_1,U2,This is the most recent rate? I don't know.,CR,V
+11_1_U113,11_1,U1,"Oh, so we might want to correlate between the line chart and the...",N,na
+11_1_U114,11_1,U1,"So based on the line chart, we can command the map.",N,na
+11_1_U115,11_1,U2,But you don't know what sort of county types those are.,N,na
+11_1_U116,11_1,U1,"Oh, a small city.",N,na
+11_1_U117,11_1,U1,This is a small city.,N,na
+11_1_U118,11_1,U2,"Oh, a small city.",N,na
+11_1_U119,11_1,U1,I asked for small cities.,N,na
+11_1_U120,11_1,U2,"Oh, okay.",N,na
+11_1_U121,11_1,U1,We can ask for...,N,na
+11_1_U122,11_1,U2,"Yeah, but you asked for poverty.",N,na
+11_1_U123,11_1,U1,Yeah.,N,na
+11_1_U124,11_1,U1,"Oh, and we don't know what for poverty.",N,na
+11_1_U125,11_1,U1,So first we should ask what is the line chart for the specific...,N,na
+11_1_U126,11_1,U2,Yeah.,N,na
+11_1_U127,11_1,U2,Okay.,N,na
+11_1_U128,11_1,U2,So one second.,N,na
+11_1_U129,11_1,U2,"First of all, we don't have all the data for COVID or the entire COVID period.",Vis,na
+11_1_U130,11_1,U2,I would say we have only 2020.,N,na
+11_1_U131,11_1,U2,We can ask for 2021.,N,na
+11_1_U132,11_1,U1,Maybe that's the entire...,N,na
+11_1_U133,11_1,U1,"Oh, yeah.",N,na
+11_1_U134,11_1,U2,Okay.,N,na
+11_1_U135,11_1,U2,"Oh, and we should save this.",N,na
+11_1_U136,11_1,U2,So...,N,na
+11_1_U137,11_1,U1,"Oh, yeah.",N,na
+11_1_U138,11_1,U2,Yes.,N,na
+11_1_U139,11_1,U2,"Oh, wait a minute.",N,na
+11_1_U140,11_1,U2,We should save this.,N,na
+11_1_U141,11_1,U2,This is 2022.,N,na
+11_1_U142,11_1,U2,Do we need to...,N,na
+11_1_U143,11_1,U2,Let's not do 2019 maybe.,N,na
+11_1_U144,11_1,U2,Show me...,N,na
+11_1_U145,11_1,U2,"Wait, I forgot what I asked.",N,na
+11_1_U146,11_1,U1,This is the line chart for...,N,na
+11_1_U147,11_1,U2,"Oh, I got it.",N,na
+11_1_U148,11_1,U2,Show me COVID cases by county for 2021.,VR,na
+11_1_U149,11_1,S,Line Chart of NUM_CASES  vs. Date Colored by County_type ,NS,na
+11_1_U150,11_1,U2,"So it's the same, I would say...",N,na
+11_1_U151,11_1,U1,"Oh, so the same time range.",N,na
+11_1_U152,11_1,U1,I think that's the...,N,na
+11_1_U153,11_1,U2,What's the same?,CR,A
+11_1_U154,11_1,U1,"Yeah, I think that's the entire...",N,na
+11_1_U155,11_1,U2,"Okay, let's talk about...",N,na
+11_1_U156,11_1,U1,"Yes, please.",N,na
+11_1_U157,11_1,U2,Show me COVID cases by county for 2022.,VR,na
+11_1_U158,11_1,U2,It's not for the entire time.,N,na
+11_1_U159,11_1,S,Line Chart of NUM_CASES  vs. Date Colored by County_type ,NS,na
+11_1_U160,11_1,U1,"Oh, the same thing.",N,na
+11_1_U161,11_1,U1,Is that June or January?,CR,V
+11_1_U162,11_1,U1,January?,CR,V
+11_1_U163,11_1,U1,No.,N,na
+11_1_U164,11_1,U1,If you want to ask maybe...,N,na
+11_1_U165,11_1,U1,Can you show me the line chart for poverty after 2021?,VR,na
+11_1_U166,11_1,U2,Yeah.,N,na
+11_1_U167,11_1,U2,"By county, you want to ask by county.",Vis,na
+11_1_U168,11_1,U2,So...,N,na
+11_1_U169,11_1,U1,"Oh, I should ask by what to be grouped as well.",N,na
+11_1_U170,11_1,U1,Can I circle up?,CR,K
+11_1_U171,11_1,U1,Okay.,N,na
+11_1_U172,11_1,U1,So we are looking for input for the U.S. residents.,N,na
+11_1_U173,11_1,U1,Input?,CR,A
+11_1_U174,11_1,U1,Okay.,N,na
+11_1_U175,11_1,U2,Show me poverty rates by county.,VR,na
+11_1_U176,11_1,U2,I don't think it has multiple data sets.,N,na
+11_1_U177,11_1,S,Bar Chart of County_type  vs. NUM_COUNTIES Colored by Poverty_rate ,NS,na
+11_1_U178,11_1,U1,"Wow, that's a new type of chart.",N,na
+11_1_U179,11_1,U1,That's cool.,N,na
+11_1_U180,11_1,U2,I guess we can ask the same things for everything.,N,na
+11_1_U181,11_1,U2,"For COVID, I don't think it has different data for other years",N,na
+11_1_U182,11_1,U2,"because it's showing the same plots, no matter the year.",N,na
+11_1_U183,11_1,U2,Okay.,N,na
+11_1_U184,11_1,U2,Sounds like a plan.,N,na
+11_1_U185,11_1,U1,"Can you repeat the plan, please?",CR,A
+11_1_U186,11_1,U2,"So we want the area types for high poverty, high COVID risk.",Vis,na
+11_1_U187,11_1,U1,"Well, so we want...",N,na
+11_1_U188,11_1,U1,So I'm reading again the test to make sure that I understand.,N,na
+11_1_U189,11_1,U1,So we want this board over here would be an input for U.S. residents,N,na
+11_1_U190,11_1,U1,so that they know how to prioritize their resources.,N,na
+11_1_U191,11_1,U2,Yeah.,N,na
+11_1_U192,11_1,U2,So...,N,na
+11_1_U193,11_1,U1,How would I know how to prioritize my resources?,CR,K
+11_1_U194,11_1,U2,We don't know where.,N,na
+11_1_U195,11_1,S,Map of cardiovascular_disease_rate,NS,na
+11_1_U196,11_1,U2,We need to ask the same thing for cardiovascular disease.,VR,na
+11_1_U197,11_1,U1,"Oh, thank you, Artie, but they don't...",N,na
+11_1_U198,11_1,U1,What have you just taught it here?,CR,K
+11_1_U199,11_1,U2,I don't think you can answer you.,N,na
+11_1_U200,11_1,U2,This is cardiovascular disease.,N,na
+11_1_U201,11_1,U2,Maybe it doesn't have other...,N,na
+11_1_U202,11_1,U2,"So, okay.",N,na
+11_1_U203,11_1,U2,High cardiovascular...,N,na
+11_1_U204,11_1,U1,"Yeah, so they should prioritize that stuff on the right.",N,na
+11_1_U205,11_1,U2,"Yeah, but from my understanding, we should also know what sort of area these are",N,na
+11_1_U206,11_1,U2,"because we have big cities, small cities, we have all types of...",N,na
+11_1_U207,11_1,U1,Maybe we can ask about the West Coast map and East Coast map.,Vis,na
+11_1_U208,11_1,U1,Do you think...,N,na
+11_1_U209,11_1,U2,"I mean, we could also play and try one of the states in this.",VR,na
+11_1_U210,11_1,U1,Yes.,N,na
+11_1_U211,11_1,U2,I don't know.,N,na
+11_1_U212,11_1,U2,Okay.,N,na
+11_1_U213,11_1,U2,"Not the list, please.",N,na
+11_1_U214,11_1,U1,"Well, it's for U.S. residents, so it seems to be general.",N,na
+11_1_U215,11_1,U2,Show me cardiovascular disease rate by county.,VR,na
+11_1_U216,11_1,S,Bar Chart of Cardiovascular_disease_rate  vs. NUM_COUNTIES Colored by County_type ,NS,na
+11_1_U217,11_1,U2,Okay.,N,na
+11_1_U218,11_1,U2,"So, first, for COVID, we don't know.",N,na
+11_1_U219,11_1,U2,Okay.,N,na
+11_1_U220,11_1,U2,Show me COVID cases in the U.S.,VR,na
+11_1_U221,11_1,S,Line Chart of NUM_CASES  vs. Date ,NS,na
+11_1_U222,11_1,U2,Show me COVID cases in the U.S. by state.,VR,na
+11_1_U223,11_1,U1,It doesn't have...,N,na
+11_1_U224,11_1,U2,I think we had something.,N,na
+11_1_U225,11_1,U1,"It doesn't have by state, only by rural, urban,suburban and small city",N,na
+11_1_U226,11_1,U1,Or does it have by state?,CR,K
+11_1_U227,11_1,U1,Can you tell them by state?,CR,K
+11_1_U228,11_1,U2,"Yeah, I asked for state.",N,na
+11_1_U229,11_1,U1,"Okay, I am not sure",N,na
+11_1_U230,11_1,U1,"You can group it by urban, suburban, rural, small city.",N,na
+11_1_U231,11_1,U1,There's no grouping by state.,N,na
+11_1_U232,11_1,U2,"Okay, got it, got it, got it, got it.",N,na
+11_1_U233,11_1,U1,"Okay, so I have a strategy.",N,na
+11_1_U234,11_1,U2,By region.,VR,na
+11_1_U235,11_1,U2,We can ask by region.,N,na
+11_1_U236,11_1,S,Map of region,NS,na
+11_1_U237,11_1,U2,"We ask by county type, by county.",N,na
+11_1_U238,11_1,U1,"You're amazing, bro.",N,na
+11_1_U239,11_1,U2,He says hi.,N,na
+11_1_U240,11_1,U1,That's pretty cool.,N,na
+11_1_U241,11_1,U2,"Yo, Artie, wait.",N,na
+11_1_U242,11_1,U2,"Oh, I don't like the color.",N,na
+11_1_U243,11_1,U1,"Oh, the color is here.",N,na
+11_1_U244,11_1,S,Map of county_type,NS,na
+11_1_U245,11_1,U1,"Wait, this is...",N,na
+11_1_U246,11_1,U2,Okay.,N,na
+11_1_U247,11_1,U2,Show me COVID cases by...,VR,na
+11_1_U248,11_1,S,Line Chart of NUM_CASES  vs. Date ,NS,na
+11_1_U249,11_1,U1,Cool.,N,na
+11_1_U250,11_1,U2,Show me COVID cases by region.,VR,na
+11_1_U251,11_1,S,Line Chart of NUM_CASES  vs. Date Colored by Region ,NS,na
+11_1_U252,11_1,U2,"Oh, my God.",N,na
+11_1_U253,11_1,U1,Another one.,N,na
+11_1_U254,11_1,U1,How much time do we still have?,N,na
+11_1_U255,11_1,U2,Okay.,N,na
+11_1_U256,11_1,U2,"So, okay.",N,na
+11_1_U257,11_1,U2,I think we're kind of late.,N,na
+11_1_U258,11_1,U1,"Okay, this is where...",N,na
+11_1_U259,11_1,U1,"Oh, and here we have this African American population.",Vis,na
+11_1_U260,11_1,U1,"We still have this thing that we haven't used that much, I think.",N,na
+11_1_U261,11_1,U2,"If you're interested, but if we...",N,na
+11_1_U262,11_1,U2,"I mean, you want us...",N,na
+11_1_U263,11_1,U1,Do we know?,CR,K
+11_1_U264,11_1,U2,"So, maybe that's from the other task.",N,na
+11_1_U265,11_1,U2,We want by county type region.,VR,na
+11_1_U266,11_1,U1,"Well, I guess so, in my understanding...",N,na
+11_1_U267,11_1,U1,"Oh, should I move that?",N,na
+11_1_U268,11_1,U2,"Okay, so we have time already.",N,na
+11_1_U269,11_1,U2,"Okay, focus.",N,na
+11_1_U270,11_1,U1,"10 minutes, okay.",N,na
+11_1_U271,11_1,U2,We have our COVID by...,N,na
+11_1_U272,11_1,U1,But we still have time.,N,na
+11_1_U273,11_1,U1,"So, it's enough time, isn't it?",N,na
+11_1_U274,11_1,U2,"Yeah, but we want the statistics for everything.",N,na
+11_1_U275,11_1,U1,"Yeah, we want the statistics for everything.",N,na
+11_1_U276,11_1,U1,"But if we know what are the questions that we should ask, then...",N,na
+11_1_U277,11_1,U1,I guess.,N,na
+11_1_U278,11_1,U2,"Well, yeah.",N,na
+11_1_U279,11_1,U2,"So, this is by county type, right?",CR,V
+11_1_U280,11_1,U2,"No, yes.",N,na
+11_1_U281,11_1,U2,County type for COVID.,VR,na
+11_1_U282,11_1,U2,"So, we already have the answer for that.",N,na
+11_1_U283,11_1,U2,I don't think we have data for multiple years.,N,na
+11_1_U284,11_1,U1,"So, this is only the regions.",CR,V
+11_1_U285,11_1,U2,"Yeah, yeah.",N,na
+11_1_U286,11_1,U1,It's not having any information.,N,na
+11_1_U287,11_1,U2,These are COVID cases by region.,N,na
+11_1_U288,11_1,U2,"So, in the south...",N,na
+11_1_U289,11_1,U2,"And the pink part, which is Alaska, I guess.",N,na
+11_1_U290,11_1,U2,"No, wait.",N,na
+11_1_U291,11_1,U2,Not pink.,N,na
+11_1_U292,11_1,U2,Red and...,N,na
+11_1_U293,11_1,U2,"So, the southeast has more COVID cases, I guess.",N,na
+11_1_U294,11_1,U1,"Well, we could...",N,na
+11_1_U295,11_1,U2,Same for Midwest.,N,na
+11_1_U296,11_1,U2,And then the region types are like...,N,na
+11_1_U297,11_1,U2,At high risk...,N,na
+11_1_U298,11_1,U1,"Oh, that's great.",N,na
+11_1_U299,11_1,U2,City and urban.,N,na
+11_1_U300,11_1,U2,I guess that's the...,N,na
+11_1_U301,11_1,U2,"So, this is for COVID.",N,na
+11_1_U302,11_1,U2,And then we should have the same things for poverty.,Vis,na
+11_1_U303,11_1,U1,It is cardiovascular diseases of the population.,Vis,na
+11_1_U304,11_1,U1,Uninsured access to doctors.,VR,na
+11_1_U305,11_1,U2,Poverty.,VR,na
+11_1_U306,11_1,U2,We have here by...,N,na
+11_1_U307,11_1,U1,Oh.,N,na
+11_1_U308,11_1,S,Map of access_to_doctor Filtered by Medium-hispanic-population ,NS,na
+11_1_U309,11_1,U1,Thank you.,N,na
+11_1_U310,11_1,U2,"Oh, oh.",N,na
+11_1_U311,11_1,U2,Okay.,N,na
+11_1_U312,11_1,U2,This is what we need for access to doctors.,N,na
+11_1_U313,11_1,U2,"So, I guess this is all the data that we have.",N,na
+11_1_U314,11_1,U1,"Thank you, Arty.",N,na
+11_1_U315,11_1,U1,Can you suggest some more plots?,CR,K
+11_1_U316,11_1,U1,Okay.,N,na
+11_1_U317,11_1,U1,"So, we have asked about access to doctors.",Vis,na
+11_1_U318,11_1,U1,Uninsured.,VR,na
+11_1_U319,11_1,U1,"Hey, R.P., can you give me the map for uninsured people?",VR,na
+11_1_U320,11_1,U2,"Okay, let's try something else, like show uninsured rates.",Vis,na
+11_1_U321,11_1,U2,Show uninsured rates by county.,VR,na
+11_1_U322,11_1,S,Bar Chart of County_type  vs. NUM_COUNTIES Colored by Uninsured_rate ,NS,na
+11_1_U323,11_1,U2,It's very weird because I don't...,N,na
+11_1_U324,11_1,U2,You don't know...,N,na
+11_1_U325,11_1,U1,"Oh, so when you ask for a grouping, it gives you this kind of a chart.",N,na
+11_1_U326,11_1,U2,"Yeah, but I asked the same thing here.",N,na
+11_1_U327,11_1,U2,And it's from the line chart.,N,na
+11_1_U328,11_1,U2,"Oh, because it has, I guess, temporal data and this doesn't have temporal data.",N,na
+11_1_U329,11_1,U2,I don't know.,N,na
+11_1_U330,11_1,U2,"So, we have, these are uninsured rates and...",N,na
+11_1_U331,11_1,U1,High-risk communities.,N,na
+11_1_U332,11_1,U1,"So, we want to...",N,na
+11_1_U333,11_1,S,Map of uninsured_rate,NS,na
+11_1_U334,11_1,U2,Cool.,N,na
+11_1_U335,11_1,U2,Maybe it takes a lot more time to show maps.,N,na
+11_1_U336,11_1,U1,"Oh, yeah, that might be the case.",N,na
+11_1_U337,11_1,U1,"And so, we want to target highly at-risk communities.",N,na
+11_1_U338,11_1,U1,"So, that would be...",N,na
+11_1_U339,11_1,U1,"The people that are uninsured, it's a high-risk community or something.",VR,na
+11_1_U340,11_1,U2,"So, I guess, South is always...",N,na
+11_1_U341,11_1,U2,South is always the problem.,N,na
+11_1_U342,11_1,U2,"So, there are a lot more uninsured people in the South and all the...",N,na
+11_1_U343,11_1,U2,"I mean, most in the rural areas.",VR,na
+11_1_U344,11_1,U2,"So, those are the most at high risk in small cities.",VR,na
+11_1_U345,11_1,U2,"So, this is for uninsured.",N,na
+11_1_U346,11_1,U2,"Then, for... You have here...",N,na
+11_1_U347,11_1,U2,Why is it filtered by a medium Hispanic population?,CR,V
+11_1_U348,11_1,U1,No.,N,na
+11_1_U349,11_1,U1,"Oh, we can...",N,na
+11_1_U350,11_1,U2,"It's access to doctor, but for a particular population type, I would say.",N,na
+11_1_U351,11_1,U1,"Oh, we have on the back, you can ask for Hispanic for social vulnerability.",Vis,na
+11_1_U352,11_1,U1,"Hey, Arty, can you show me a map for...",N,na
+11_1_U353,11_1,S,Map of social_vulnerability_rank,NS,na
+11_1_U354,11_1,U1,"Thank you, Arty.",N,na
+11_1_U355,11_1,U1,"Oh, and we have 13 as well by...",N,na
+11_1_U356,11_1,U1,"Hey, Arty, can you show me a map of COVID-19 cases?",VR,na
+11_1_U357,11_1,S,Map of social_vulnerability_rank,NS,na
+11_1_U358,11_1,U2,Okay.,N,na
+11_1_U359,11_1,U1,"Oh, okay.",N,na
+11_1_U360,11_1,U1,"Hey, Arty, can you show me a map of elderly percentage?",VR,na
+11_1_U361,11_1,S,Map of elderly_percentage,NS,na
+11_1_U362,11_1,U1,"Do we have that already, elderly percentage?",CR,V
+11_1_U363,11_1,U2,No.,N,na
+11_1_U364,11_1,U2,But we can calculate that.,N,na
+11_1_U365,11_1,U1,"Okay, so I think I understand how it works.",N,na
+11_1_U366,11_1,U1,"For the map, you can ask...",N,na
+11_1_U367,11_1,U1,Give me a map of these attributes over here.,N,na
+11_1_U368,11_1,U1,But I don't understand very well what is with the bar charts in the lunchbox.,CR,V
+11_1_U369,11_1,U2,"So, it's grouping them by county type.",N,na
+11_1_U370,11_1,U2,And it's showing...,N,na
+11_1_U371,11_1,U1,"But you have the second bar chart, which is...",N,na
+11_1_U372,11_1,U2,"Rural, all the time.",N,na
+11_1_U373,11_1,U2,For...,N,na
+11_1_U374,11_1,U2,"So, oh, okay.",N,na
+11_1_U375,11_1,U2,"So, it's high poverty, low poverty.",N,na
+11_1_U376,11_1,U2,"Oh, what?",CR,V
+11_1_U377,11_1,U2,High poverty rate is wrong.,N,na
+11_1_U378,11_1,U2,Then low poverty rate is still rural.,N,na
+11_1_U379,11_1,U2,It doesn't really matter.,N,na
+11_1_U380,11_1,U1,"Because maybe most of the people live in rural areas,",N,na
+11_1_U381,11_1,U1,but that's not true because most of the people live in California.,N,na
+11_1_U382,11_1,U2,Okay.,N,na
+11_1_U383,11_1,U1,And in cities.,N,na
+11_1_U384,11_1,U2,What answers do we have?,N,na
+11_1_U385,11_1,U1,"So, again, we want county level data",N,na
+11_1_U386,11_1,U1,in order to best reach high at risk communities.,N,na
+11_1_U387,11_1,U1,"So, what do you want?",N,na
+11_1_U388,11_1,U2,You know what's curious?,N,na
+11_1_U389,11_1,U2,That you have elderly people spread throughout...,N,na
+11_1_U390,11_1,U2,"I mean, a lot of elderly percentages in the north and south.",N,na
+11_1_U391,11_1,U1,"We are not in the cities, you see?",N,na
+11_1_U392,11_1,U1,"The elderly people are old, but not...",N,na
+11_1_U393,11_1,U2,"But then the cardiovascular disease rate, look at this.",N,na
+11_1_U394,11_1,U1,"Oh, interesting.",N,na
+11_1_U395,11_1,U2,And you would expect older people to have those problems?,N,na
+11_1_U396,11_1,U1,Yeah.,N,na
+11_1_U397,11_1,U2,Show me a map for...,N,na
+11_1_U398,11_1,U1,This is the way in California there are N.,N,na
+11_1_U399,11_1,U1,Why?,N,na
+11_1_U400,11_1,U1,Because it's the east.,N,na
+11_1_U401,11_1,U1,And New York?,N,na
+11_1_U402,11_1,U2,Let's look at diabetes.,Vis,na
+11_1_U403,11_1,U1,"Oh, yeah, please.",N,na
+11_1_U404,11_1,U2,Show diabetes rates.,VR,na
+11_1_U405,11_1,U2,"No, show a map of diabetes rates.",VR,na
+11_1_U406,11_1,U1,"Maybe you need to say, hey, Artie.",N,na
+11_1_U407,11_1,U1,Maybe it has like a map of...,N,na
+11_1_U408,11_1,U1,Artie can know if people are nice to him.,N,na
+11_1_U409,11_1,U1,Or maybe it has this understanding.,N,na
+11_1_U410,11_1,U2,Show me a map of diabetes rates.,VR,na
+11_1_U411,11_1,U1,"Artie, please.",N,na
+11_1_U412,11_1,U2,I don't think it's going to be more responsive.,N,na
+11_1_U413,11_1,U2,You're nice to it.,N,na
+11_1_U414,11_1,U2,I want to see a map of diabetes rates.,VR,na
+11_1_U415,11_1,U2,Now.,N,na
+11_1_U416,11_1,U2,Okay.,N,na
+11_1_U417,11_1,U1,"Oh, no.",N,na
+11_1_U418,11_1,U1,You can...,N,na
+11_1_U419,11_1,U2,Show me the diabetes rates by county.,VR,na
+11_1_U420,11_1,U2,I don't know what you guys hear.,N,na
+11_1_U421,11_1,U2,I don't know how you get the app saying I don't.,N,na
+11_1_U422,11_1,U1,"Hey, Artie.",N,na
+11_1_U423,11_1,U1,Can you please show me a map of diabetes?,VR,na
+11_1_U424,11_1,U2,"Maybe it doesn't like rates, yeah.",N,na
+11_1_U425,11_1,U1,Or maybe he doesn't know diabetes.,N,na
+11_1_U426,11_1,U2,Where is the uninsured?,N,na
+11_1_U427,11_1,U2,Okay.,N,na
+11_1_U428,11_1,U2,"So, and then we have...",N,na
+11_1_U429,11_1,U2,"Oh, we already have it here.",N,na
+11_1_U430,11_1,U2,uninsured and then...,N,na
+11_1_U431,11_1,U1,I don't know.,N,na
+11_1_U432,11_1,U2,Apart from like Florida.,N,na
+11_1_U433,11_1,U1,"Oh, I know how to see if he responds to the name.",N,na
+11_1_U434,11_1,U1,"Hey Siri, can you give me a map of diabetes?",VR,na
+11_1_U435,11_1,S,Map of diabetes_rate,NS,na
+11_1_U436,11_1,U1,"Oh, he responds to Siri.",N,na
+11_1_U437,11_1,U1,Okay.,N,na
+11_1_U438,11_1,U2,"No, I don't think...",N,na
+11_1_U439,11_1,U1,We have discovered something.,N,na
+11_1_U440,11_1,U2,Okay.,N,na
+11_1_U441,11_1,U2,"Okay, look at this there.",N,na
+11_1_U442,11_1,U2,It is in cardiovascular.,N,na
+11_1_U443,11_1,U1,"Oh, there.",N,na
+11_1_U444,11_1,U1,Yeah.,N,na
+11_1_U445,11_1,U1,Cool.,N,na
+11_1_U446,11_1,U2,And then COVID vulnerability.,N,na
+11_1_U447,11_1,U2,"Wait, I don't see how you've got this.",CR,V
+11_1_U448,11_1,U1,You should wrap it up.,N,na
+11_1_U449,11_1,U2,"So, yeah, in terms of health, I guess the Southeast part of the country is always at risk.",N,na
+11_1_U450,11_1,U1,Yes.,N,na
+11_1_U451,11_1,U2,"And then we don't have a map for COVID, right?",CR,V
+11_1_U452,11_1,S,Bar Chart of Cardiovascular_disease_rate  vs. NUM_COUNTIES Colored by Region  Filtered by Rural ,NS,na
+11_1_U453,11_1,U2,"Oh, my God.",N,na
+11_1_U454,11_1,U1,"Oh, that chart is pretty cool, but we don't know where to put it.",N,na
+11_1_U455,11_1,U2,Okay.,N,na
+11_1_U456,11_1,U1,"COVID vulnerability, I think that's COVID risk, so we have that.",N,na
+11_1_U457,11_1,U2,"Oh, okay.",N,na
+11_1_U458,11_1,U2,Okay.,N,na
+11_1_U459,11_1,U2,Yes.,N,na
+11_1_U460,11_1,U2,"Oh, smart.",N,na
+11_1_U461,11_1,U1,Yeah.,N,na
+11_1_U462,11_1,U2,So...,N,na
+11_1_U463,11_1,U2,"Poor answer, but we find...",N,na
+11_1_U464,11_1,S,Map of covid_vulnerability_rank,NS,na
+11_1_U465,11_1,U1,COVID vulnerability.,N,na
+11_1_U466,11_1,U1,"Oh, it does the same.",N,na
+11_1_U467,11_1,U1,But we have...,N,na
+11_1_U468,11_1,U1,"If you scroll a bit on the left, we have...",N,na
+11_1_U469,11_1,U1,Yeah.,N,na
+11_1_U470,11_1,U1,"Not social, but elderly people.",N,na
+11_1_U471,11_1,U1,I think that was interesting as well.,N,na
+11_1_U472,11_1,U2,This one?,CR,V
+11_1_U473,11_1,U1,No.,N,na
+11_1_U474,11_1,U1,A bit on the right.,N,na
+11_1_U475,11_1,U2,Right?,CR,V
+11_1_U476,11_1,U1,Yeah.,N,na
+11_1_U477,11_1,U2,"Oh, what's going to happen in 20 seconds?",N,na
+11_1_U478,11_1,U1,"Oh, my God.",N,na
+11_1_U479,11_1,U1,"Oh, my God.",N,na
+11_1_U480,11_1,U1,"Oh, my God.",N,na
+11_1_U481,11_1,U1,"Oh, hey, Artie, give me a map of elderly people.",VR,na
+6_2_U1,6_2,U1,So complements of urban suburban and small cities right?,N,na
+6_2_U2,6_2,U2,"yeah, I think those are the one",N,na
+6_2_U3,6_2,U1,Artie can we get a chart of cities with high covid rate?,VR,na
+6_2_U4,6_2,U1,Atee can we get a chat for regions with high poverty rate and the number of covid cases?,VR,na
+6_2_U5,6_2,U2,"Atee, can you give us a chart for poverty rate and county time?",VR,na
+6_2_U6,6_2,S,Map of county type,NS,na
+6_2_U7,6_2,U1,Atee can we get a chat for midwest plus rural plus very high poverty rate?,VR,na
+6_2_U8,6_2,U2,We have two graphs and we need to discuss the output from the two graphs.,N,na
+6_2_U9,6_2,U1,If we tell the filters it will generate the chart for us?,CR,V
+6_2_U10,6_2,U1,Atee can we get a chart for cities which have high poverty rate and covid cases?,VR,na
+6_2_U11,6_2,U1,Atee can we get a chart for cities which have very high poverty rate versus covis rate,VR,na
+6_2_U12,6_2,U2,Atee can we get a chart for midwest and rural and very high poverty rate?,VR,na
+6_2_U13,6_2,U2,Atee can we get a chart for midwest and rural and very high poverty rate?,VR,na
+6_2_U14,6_2,U1,It should respond,N,na
+6_2_U15,6_2,U1,Atrie can we get a chart for number of counties in the midwest region with high poverty rate?,VR,na
+6_2_U16,6_2,S,Map of region filtered by high poverty rate,NS,na
+6_2_U17,6_2,U1,Atee can we get a chat for uninsured rate in different regions?,VR,na
+6_2_U18,6_2,U2,Atee can we get a chat for very low uninsured rate and poverty ?,VR,na
+6_2_U19,6_2,U2,Atee can we get a chat for very low uninsured rate and poverty ?,VR,na
+6_2_U20,6_2,S,Bar chart of uninsured rate vs num counties,NS,na
+6_2_U21,6_2,U2,All looks the same,N,na
+6_2_U22,6_2,U1,Artie can we get a chart of uninsured rate versus the covid rate?,VR,na
+6_2_U23,6_2,U1,Atee can we get a chart for southwest plus suburban and very high elderly population?,VR,na
+6_2_U24,6_2,U2,Atee can we get a chart for very high COVID vulnerability rank and the urban area?,VR,na
+6_2_U25,6_2,U1,Can we first get a chart for covid cases in different counties?,VR,na
+6_2_U26,6_2,U2,Yeah,N,na
+6_2_U27,6_2,U1,Atee can we get a chart graph for county type versus number of COVID cases?,VR,na
+6_2_U28,6_2,S,Line chart of num cases vs date colored by county type,NS,na
+6_2_U29,6_2,U2,I think we can get a chart for very uh very high covid rate and county type,Vis,na
+6_2_U30,6_2,U1,This one?,CR,V
+6_2_U31,6_2,U2,"No, not the cases, vulnerability",N,na
+6_2_U32,6_2,U2,This is almost the same,N,na
+6_2_U33,6_2,U2,Okay they are asking for interesting patterns we can find,N,na
+6_2_U34,6_2,U2,Artie can we get a graph for latitude longitude and high poverty rate?,VR,na
+6_2_U35,6_2,U1,Atee can we get a chat for number of states that have high covid vunalability rank?,VR,na
+6_2_U36,6_2,U1,Atee can we get a chat for state versus COVID rate?,VR,na
+6_2_U37,6_2,S,Map of covid vulnerability rank filtered by AR,NS,na
+6_2_U38,6_2,U1,What is this?,CR,V
+6_2_U39,6_2,U1,What is AR? ,CR,V
+6_2_U40,6_2,U1,AR means state?,CR,V
+6_2_U41,6_2,U2,We need filter to get the,N,na
+6_2_U42,6_2,U1,"What is  the region, filtered by?",N,na
+6_2_U43,6_2,U2,we can generate one graph and add filters for it,N,na
+6_2_U44,6_2,U1,Artie can we filter covid rate based on state uh and poverty rate?,VR,na
+6_2_U45,6_2,U1,Atee can we get a chat for uninsured rate versus number of COVID-19 cases?,VR,na
+6_2_U46,6_2,U1,Atee can we get a map of COVID rate based on state and high poverty?,VR,na
+6_2_U47,6_2,U2,Atee can we get a chart for poverty rate and state filtered by Illinois?,VR,na
+6_2_U48,6_2,U2,Atee can we get a chart for poverty rate and state filtered by IL?,VR,na
+6_2_U49,6_2,U1,Artie can you give uh covid uh access to doctors based on state?,VR,na
+6_2_U50,6_2,U2,Atee can we get a chart for access to doctors in Illinois state?,VR,na
+6_2_U51,6_2,S,Map of access to doctors filtered by IL,NS,na
+6_2_U52,6_2,U2,Very low access I think,N,na
+6_2_U53,6_2,U1,There is no,N,na
+6_2_U54,6_2,U2,We can visualize this at Illinois stae itself,Vis,na
+6_2_U55,6_2,U1,We can't see now,N,na
+6_2_U56,6_2,U2,Isn't it very low access to doctors?,N,na
+6_2_U57,6_2,U1,No,N,na
+6_2_U58,6_2,U1,"This is gray, this part",N,na
+6_2_U59,6_2,U1,Atee can we get a chart for elderly percentage in different states?,VR,na
+6_2_U60,6_2,U1,Atee can we get a chart for elderly percentage in different counties?,VR,na
+6_2_U61,6_2,S,Map of county type filtered by medium hispanic population,NS,na
+6_2_U62,6_2,U2,Artie can I get a graph of elderly percentage in urban county type?,VR,na
+6_2_U63,6_2,U2,Atee can we get a chat for elderly percentage versus the county type filtered by urban?,VR,na
+6_2_U64,6_2,S,Map of elderly percentage filtered by medium hispanic population,NS,na
+6_2_U65,6_2,U1,Atee can we get a map of elderly percentage filtered by very high COVID rate?,VR,na
+6_2_U66,6_2,U1,Oh this is filtered by poverty rate,N,na
+6_2_U67,6_2,U2,Atee can we get a chart for elderly percentage in northeast region?,VR,na
+6_2_U68,6_2,U1,Atee can we get a map of region filtered by high COVID vulnerability risk?,VR,na
+6_2_U69,6_2,S,Map of region,NS,na
+6_2_U70,6_2,U1,Atee can we get a map of region filtered by high COVID vulnerability risk?,VR,na
+6_2_U71,6_2,S,Bar chart of vovid vulnerability rank vs num counties colored by region,NS,na
+6_2_U72,6_2,U2,"These two graphs, between these two graphs",N,na
+6_2_U73,6_2,U1,What?,CR,V
+6_2_U74,6_2,U2,"Like we can see region with very low covid vulnerability rank has very high access to doctors and vice versa, so high chance of getting covid",N,na
+6_2_U75,6_2,U1,"No, this is the number of counties",N,na
+6_2_U76,6_2,U2,These are also number of counties,N,na
+6_2_U77,6_2,U1,These are the number of counties with high access to doctors and low access to doctors in these regions,N,na
+6_2_U78,6_2,U1,Atee can we get a map a region filtered by high COVID vulnerability rank?,VR,na
+6_2_U79,6_2,S,Bar chart of vovid vulnerability rank vs num counties colored by region,NS,na
+6_2_U80,6_2,U1,Atee can we get a map a region filtered by high COVID vulnerability rank?,VR,na
+6_2_U81,6_2,S,Map of covid vulnerability rank,NS,na
+6_2_U82,6_2,U2,This is the same,N,na
+6_2_U83,6_2,U1,Hmm?,CR,V
+6_2_U84,6_2,U2,We had this,N,na
+6_2_U85,6_2,U1,No we can compare this with this map,N,na
+6_2_U86,6_2,U1,High poverty rate,N,na
+6_2_U87,6_2,U2,high poverty rate with high covid vulnerability,Vis,na
+6_2_U88,6_2,U1,This one?,CR,V
+6_2_U89,6_2,U1,No actually if you compare these regions here,N,na
+6_2_U90,6_2,U2,Regions with high poverty rate also having high covid rate?,CR,V
+6_2_U91,6_2,U1,"No, here there is no high poverty rate but it is high vulnerability risk, like if you take these two regions, I think there is no relation with high poverty rate",N,na
+6_2_U92,6_2,U1,Artie can you map a region filtered by low poverty rate,VR,na
+6_2_U93,6_2,U1,Artie can you map a region filtered by low poverty rate,VR,na
+6_2_U94,6_2,S,Map of covid vulnerability rank,NS,na
+6_2_U95,6_2,U1,Atee can you map region filtered by very high poverty rate?,VR,na
+6_2_U96,6_2,U1,Atee can you map region filtered by very high African American population?,VR,na
+6_2_U97,6_2,S,Bar chart of African American Population vs num counties colored by region,NS,na
+6_2_U98,6_2,U1,Atee can you map state with very low access to doctors and COVID rate?,VR,na
+6_2_U99,6_2,U1,Atee can you map chart southwest region with very high elderly population and COVID rate?,VR,na
+6_2_U100,6_2,U1,Is there anything you can find here?,N,na
+6_2_U101,6_2,U2,"I think still like southeast, we you have high access to doctors they have high vulnerability to covid",N,na
+6_2_U102,6_2,U1,"No, so if you look at these regions, some regions have very high access to doctors but other regions which have very high covid vulnerability rank, so there is no mapping between the two",N,na
+6_2_U103,6_2,U1,Atee can you map county based on?,VR,na
+6_2_U104,6_2,S,Map of county type,NS,na
+6_2_U105,6_2,U1,There is high poverty rate and very high poverty rate,N,na
+6_2_U106,6_2,U2,See this in southeast region covid vulnerability is high,N,na
+6_2_U107,6_2,U1,"No that is filtered by only high poverty rate, there is very high poverty rate also",N,na
+6_2_U108,6_2,S,Map of region filtered by southeast,NS,na
+6_2_U109,6_2,U2,Like we do have resources in the southern part of united states,Vis,na
+6_2_U110,6_2,U1,Atee can you map region filtered by southwest?,VR,na
+6_2_U111,6_2,S,Map of region,NS,na
+6_2_U112,6_2,U1,Atee can you map region filtered by southwest plus very high access to doctors?,VR,na
+6_2_U113,6_2,U1,Atee can you map region filtered by southwest plus very high poverty rate plus  very high access to doctors?,VR,na
+6_2_U114,6_2,S,Map of region filtered by high poverty rate,NS,na
+6_2_U115,6_2,U2,"Artie can you give the chart for people with high diabetes rate in Illinois city, sorry Illinois state",VR,na
+6_2_U116,6_2,U2,"I think if we have a graph for diabetes, diseases we can direct resouces",N,na
+6_2_U117,6_2,U1,Atee can you map region filtered by very high diabetes rate?,VR,na
+6_2_U118,6_2,U2,Artie can you give the chart for region and very high diabetes rate?,VR,na
+6_2_U119,6_2,U2,Artie can you give the chart for diabetes rate in the midwest region?,VR,na
+6_2_U120,6_2,S,Map of diabetes rate,NS,na
+6_2_U121,6_2,U2,You see the southeast needs more resources than the other state okay?,N,na
+6_2_U122,6_2,U1,yeah like high poverty,N,na
+6_2_U123,6_2,U2,they need more resouces than other regions,N,na
+6_2_U124,6_2,U1,this question is not about resouces right?,CR,A
+6_2_U125,6_2,U2,where to assign resources,N,na
+6_2_U126,6_2,U2,"and other counties, each state needs more resources than the others",N,na
+6_2_U127,6_2,U2,Artie can you give the states in southeast region?,VR,na
+6_2_U128,6_2,U2,Artie can you give the states in southeast region?,VR,na
+6_2_U129,6_2,U2,can you ask for the states in southeast region,CR,K
+6_2_U130,6_2,U1,Artie can you list the states in southeast region?,VR,na
+6_2_U131,6_2,U2,Also can you ask for the number of urban areas in the southeast region?,CR,K
+6_2_U132,6_2,U1,Number of what?,CR,A
+6_2_U133,6_2,U2,Number of urban areas,N,na
+6_2_U134,6_2,U1,Ah Artie can we get a bar chart of number of counties in urban region?,VR,na
+9_2_U1,9_2,U1,So we have some example combinations here. ,N,na
+9_2_U2,9_2,U1,Let's look at Midwest rural and very high poverty rate.,Vis,na
+9_2_U3,9_2,U1,"Okay, are there interesting patterns within different sets of countries based on different combinations of parameters that help that might help us understand COVID-19 outbreaks and better prioritized resources.",N,na
+9_2_U4,9_2,U1,Let's look at the user chart.,Vis,na
+9_2_U5,9_2,S,Map of covid vulnerability rank filtered by rural,NS,na
+9_2_U6,9_2,U1,"Yeah, this is what I want.",N,na
+9_2_U7,9_2,U1,"Okay, this map discarded all the other types of regions ",N,na
+9_2_U8,9_2,U2,So this is only rural?,CR,V
+9_2_U9,9_2,U1,This is only for the  rural,N,na
+9_2_U10,9_2,U2,"When we disccussed the previous task we saw which regions were sort of affected, right?",N,na
+9_2_U11,9_2,U2,So I think it is safe to say that rural areas definitely did have a higher COVID vulnerability rank than others,N,na
+9_2_U12,9_2,U1,"Yeah, I would say that.",N,na
+9_2_U13,9_2,S,Map of covid vulnerability rank,NS,na
+9_2_U14,9_2,U2,"Artie, can we see a combination of Midwest rural plus very high poverty rate?",VR,na
+9_2_U15,9_2,U1,Can we have a visualization of COVID vulnerability rank filtered by Midwest rural and very high poverty rank?,VR,na
+9_2_U16,9_2,S,Map of poverty filtered by the midwest,NS,na
+9_2_U17,9_2,U1,"Okay, this is not helpful.",N,na
+9_2_U18,9_2,U2,But at least we can still see that it does prove that the lower poverty.,N,na
+9_2_U19,9_2,S,Map of poverty,NS,na
+9_2_U20,9_2,U1,So can we have a visualization?,VR,na
+9_2_U21,9_2,U1,Can we have a visualization for COVID vulnerability rank filtered by Pacific and very high poverty rate?,VR,na
+9_2_U22,9_2,U1,So we were not sure if we need to go with Pacific or not.,N,na
+9_2_U23,9_2,U1,"So yeah, why don't we go look at look at look at?",N,na
+9_2_U24,9_2,U2,yes,N,na
+9_2_U25,9_2,U1,Can we have a visualization for Pacific filtered by COVID vulnerability rank?,VR,na
+9_2_U26,9_2,S,Map of covid vulnerability rank filtered by Pacific,NS,na
+9_2_U27,9_2,S,Map of covid vulnerability rank,NS,na
+9_2_U28,9_2,U2,It's pretty similar.,N,na
+9_2_U29,9_2,S,Map of county type,NS,na
+9_2_U30,9_2,U2,There's like what?,N,na
+9_2_U31,9_2,U2,"I can't see for six, maybe six or seven counties, six or seven states, six or seven states, which are affected by this.",N,na
+9_2_U32,9_2,U2,"Like apart from those, there is high COVID vulnerability.",N,na
+9_2_U33,9_2,U2,But it's not as much and it's not very high as you can see in this chart over here as it's showing in the southern side.,N,na
+9_2_U34,9_2,U1,"Yeah, true.",N,na
+9_2_U35,9_2,U1,"And there are also like seven counties, seven counties in the middle with high COVID vulnerability.",N,na
+9_2_U36,9_2,U1,Very few.,N,na
+9_2_U37,9_2,S,Map of county type,NS,na
+9_2_U38,9_2,U2,Could we compare the very high elderly population as well?,Vis,na
+9_2_U39,9_2,S,Map of covid vulnerability rank,NS,na
+9_2_U40,9_2,U1,Can we have a visualization for elderly population?,VR,na
+9_2_U41,9_2,S,Map of elderly percentage,NS,na
+9_2_U42,9_2,U2,Can you see it?,N,na
+9_2_U43,9_2,U1,Yeah.,N,na
+9_2_U44,9_2,U2,"So even though there's more spread throughout the United States, what do you think about this and the relation of COVID?",CR,K
+9_2_U45,9_2,U1,"I would say I don't think they're very related because so when you look at this part, the southwest part.",N,na
+9_2_U46,9_2,U2,"Yeah, that is a bit.",N,na
+9_2_U47,9_2,U1,"Yeah, they do not have anything in similar like very high elderly percentage has nothing to do with vulnerability rank.",N,na
+9_2_U48,9_2,U2,"But like over here, generally in this side, the southeastern side.",N,na
+9_2_U49,9_2,U1,Yeah.,N,na
+9_2_U50,9_2,U2,"Even though it's not very high elderly percentage, but it's still high over here, right?",N,na
+9_2_U51,9_2,U1,"The southeast part of elderly percentage and vulnerability rank, maybe we could compare that.",N,na
+9_2_U52,9_2,U2,"Because in this region over here, you can see that even though this is very high, but over here, these areas, it's very low or is low in general.",N,na
+9_2_U53,9_2,U2,"And similarly here, even though the COVID rate is high, it's not very high in contrast to this part over here.",N,na
+9_2_U54,9_2,U2,Wouldn't you say so?,N,na
+9_2_U55,9_2,U1,"Yeah, I would agree with that.",N,na
+9_2_U56,9_2,U1,Maybe let's refer using the region.,N,na
+9_2_U57,9_2,U1,Can we have a map of region?,VR,na
+9_2_U58,9_2,U1,Can we have region map?,VR,na
+9_2_U59,9_2,S,Map of region.,NS,na
+9_2_U60,9_2,U1,Okay.,N,na
+9_2_U61,9_2,U1,"So the Rockies, the Rockies region, I think it's pretty safe.",N,na
+9_2_U62,9_2,U1,Do you agree with that?,N,na
+9_2_U63,9_2,U1,The one in the sky blue part,N,na
+9_2_U64,9_2,U1,Then the Rockies region is pretty safe.,N,na
+9_2_U65,9_2,U2,"Do you think that's because these regions, generally the population of these regions is lower, right?",N,na
+9_2_U66,9_2,U2,So maybe that's one of the reasons why it is lower here.,N,na
+9_2_U67,9_2,U1,Okay.,N,na
+9_2_U68,9_2,U1,Maybe let's just focus on Rockies and COVID vulnerability rank.,Vis,na
+9_2_U69,9_2,U1,Let's try to contrast between COVID vulnerability rank and Rockies.,N,na
+9_2_U70,9_2,S,Map of covid vulnerability rank filtered by Rockies,NS,na
+9_2_U71,9_2,U1,"Okay, so yeah.",N,na
+9_2_U72,9_2,U1,"Yeah, this area is like reasonably safe.",N,na
+9_2_U73,9_2,U1,So I don't think we need to divert any resources here so we could eliminate this area.,N,na
+9_2_U74,9_2,U1,What do you think?,N,na
+9_2_U75,9_2,U1,We could totally eliminate Rockies.,N,na
+9_2_U76,9_2,U2,I agree with you on that.,N,na
+9_2_U77,9_2,U1,Let's also look at Midwest.,Vis,na
+9_2_U78,9_2,U1,Midwest and COVID vulnerability rank.,Vis,na
+9_2_U79,9_2,S,Map of covid vulnerability rank filtered by Midwest,NS,na
+9_2_U80,9_2,U1,Okay.,N,na
+9_2_U81,9_2,U1,"Again, the southeast part of Midwest.",N,na
+9_2_U82,9_2,S,Map of region filtered by Midwest,NS,na
+9_2_U83,9_2,U2,I think that's probably because more towards the southern part of United States in general where COVID rate is high.,N,na
+9_2_U84,9_2,U1,I think let's look at southeast.,Vis,na
+9_2_U85,9_2,U1,I think let's look at Midwest filtered by county type and COVID vulnerability.,Vis,na
+9_2_U86,9_2,S,Bar chart of county type vs num counties colored by covid vulnerability rank filtered by the midwest,NS,na
+9_2_U87,9_2,U1,So what's this?,CR,V
+9_2_U88,9_2,U1,This is the number of counties?,CR,V
+9_2_U89,9_2,U2,"Generally, I can see the trend in that.",N,na
+9_2_U90,9_2,U1,"Yeah, but they're not as much vulnerable as other regions.",N,na
+9_2_U91,9_2,U2,Is there anything else you would like to compare with?,N,na
+9_2_U92,9_2,U1,"Yeah, I'd like to compare Pacific, COVID vulnerability and county type.",Vis,na
+9_2_U93,9_2,U1,I'd like to look at the map.,Vis,na
+9_2_U94,9_2,S,Map of county type filtered by Pacific,NS,na
+9_2_U95,9_2,U1,"Okay, but this doesn't have COVID vulnerability.",N,na
+9_2_U96,9_2,U1,I'd like to look at Pacific filtered by county type and COVID vulnerability.,Vis,na
+9_2_U97,9_2,U2,Why don't we just compare it like this?,N,na
+9_2_U98,9_2,U1,So you can see these areas.,N,na
+9_2_U99,9_2,U2,Southern area.,N,na
+9_2_U100,9_2,U2,These areas you have COVID vulnerability.,N,na
+9_2_U101,9_2,U2,And I think it's safe to say these are suburban areas.,N,na
+9_2_U102,9_2,U2,What do you think?,N,na
+9_2_U103,9_2,U1,I think we could look at that visualization.,N,na
+9_2_U104,9_2,U2,"Yeah, I don't think we can be as red if we don't have the correct map.",N,na
+9_2_U105,9_2,U1,Maybe we could filter vulnerability ranked by Pacific's small cities.,Vis,na
+9_2_U106,9_2,U1,So small cities in Pacific filtered by COVID vulnerability rank?,Vis,na
+9_2_U107,9_2,S,Map of covid vulnerability rank filtered by Pacific,NS,na
+9_2_U108,9_2,U1,"Okay, generally Pacific would also require resources.",N,na
+9_2_U109,9_2,U1,It's small comparatively a smaller region but has like very high COVID vulnerability rank and high COVID vulnerability rank.,N,na
+9_2_U110,9_2,U1,That occupies a lot of area.,N,na
+9_2_U111,9_2,U1,So many counties.,N,na
+9_2_U112,9_2,U1,"So if we're just looking at very high COVID vulnerability rank, they're not so many.",N,na
+9_2_U113,9_2,U1,"But if we're looking at very high COVID vulnerability rank and high COVID, I would say, we should also divert resources to,",N,na
+9_2_U114,9_2,U2, would you agree that I think our first preference should be Southeast and Southwest?,N,na
+9_2_U115,9_2,U1,"And then after those, we can go to our second preference which is Pacific.",N,na
+9_2_U116,9_2,U1,"Yeah, I have no doubt in that.",N,na
+9_2_U117,9_2,U1,"Yeah, that's my point too.",N,na
+9_2_U118,9_2,U1,Can we have the region map again?,VR,na
+9_2_U119,9_2,S,Map of region.,NS,na
+9_2_U120,9_2,U1,"Okay, so the Southwest and Southeast, they're fine.",N,na
+9_2_U121,9_2,U1,We're going to divert resources to that and Pacific.,N,na
+9_2_U122,9_2,U1,"So we're only going to ignore Rockies and Rockies, Northeast and Midwest.",N,na
+9_2_U123,9_2,U1,"But again, if we were to decide, oh, I think we also need to look at non-contiguous.",N,na
+9_2_U124,9_2,U1,So let's look at this map of COVID vulnerability rank.,N,na
+9_2_U125,9_2,U1,"What about this part, The non-contiguous region.?",CR,V
+9_2_U126,9_2,S,Map of covid vulnerability rank,NS,na
+9_2_U127,9_2,S,Map of region.,NS,na
+9_2_U128,9_2,U1,What do you think?,N,na
+9_2_U129,9_2,U2,I'm not really sure about this area.,N,na
+9_2_U130,9_2,U1,"It definitely doesn't have any very high COVID risk vulnerability, but it does have a high COVID vulnerability.",N,na
+9_2_U131,9_2,U1,"And most of the region, I would say.",N,na
+9_2_U132,9_2,U1,I think this should be our third priority.,N,na
+9_2_U133,9_2,U1,What do you think?,N,na
+9_2_U134,9_2,U1,Let's also look at uninsured population in  non-contiguous region.,N,na
+9_2_U135,9_2,U1,Can we have the map of uninsured?,VR,na
+9_2_U136,9_2,U2,"Artie, can we have a visualization of the uninsured?",VR,na
+9_2_U137,9_2,U1,"Yeah, we do need uninsured visualization.",Vis,na
+9_2_U138,9_2,U1,Visualization for uninsured.,VR,na
+9_2_U139,9_2,U1,Visualization for uninsured.,VR,na
+9_2_U140,9_2,U1,"Okay, if you leave that alone.",N,na
+9_2_U141,9_2,U1,"Can we have a combination of southwest suburban, very high elderly population and very low access to doctors?",VR,na
+9_2_U142,9_2,U2,Do you want to compare the map for very high elderly population?,Vis,na
+9_2_U143,9_2,U2,"What's this region, the one you were mentioning for the third difference?",CR,A
+9_2_U144,9_2,U1,"Subcontiguous, non-contiguous region.",N,na
+9_2_U145,9_2,U2,Do you want to compare that?,N,na
+9_2_U146,9_2,U1,Yeah.,N,na
+9_2_U147,9_2,U2,"Artie, can we have a map for very high elderly population and non-contiguous region?",VR,na
+9_2_U148,9_2,S,Map of region filtered by medium hispanic population,NS,na
+9_2_U149,9_2,U2,Do you want to take a look at this too?,N,na
+9_2_U150,9_2,U2,"Yes, do you think that has to do with it?",N,na
+9_2_U151,9_2,U1,I don't think that's a parameter that's going to help.,N,na
+9_2_U152,9_2,U1,"The Hispanic population, I don't think the parameter helps in deciding.",N,na
+9_2_U153,9_2,U1,"So anyway, I want to look at southwest suburban and very high elderly population with very low access to doctors.",N,na
+9_2_U154,9_2,U1,"Can we have a visualization for southwest suburban, very high elderly population and very low access to doctors?",VR,na
+9_2_U155,9_2,U1,"We need a COVID vulnerability rank map with southwest suburban, very high elderly population and very low access to doctors.",Vis,na
+9_2_U156,9_2,S,Map of covid vulnerability rank filtered by Low access to doctors and very high elderly percentage,NS,na
+9_2_U157,9_2,U1,"Okay, there you go.",N,na
+9_2_U158,9_2,U1,"But this is filtered by low access to doctors, not very low access to doctors.",N,na
+9_2_U159,9_2,U1,Maybe we could just filter the map with access to doctors and elderly percentage.,Vis,na
+9_2_U160,9_2,U1,Can we have a visualization of COVID vulnerability rank filtered by access to doctors and high elderly percentage?,VR,na
+9_2_U161,9_2,S,Heatmap of access to doctors vs elderly percentage colored by num counties,NS,na
+9_2_U162,9_2,U1,Can we have a visualization for vulnerability rank filtered by access to doctors?,VR,na
+9_2_U163,9_2,S,Map of access to doctors,NS,na
+9_2_U164,9_2,S,Map of access to doctors,NS,na
+9_2_U165,9_2,U1,Can we have a visualization of COVID vulnerability rank filtered by access to doctors and elderly percentage?,VR,na
+9_2_U166,9_2,S,Heatmap of access to doctors vs elderly percentage colored by num counties,NS,na
+9_2_U167,9_2,U1,"We can't actually filter using the entire graph, I think we have to pick something specific, maybe let's say a very high elderly percentage.",N,na
+9_2_U168,9_2,U1,Can we have a visualization of vulnerability rank filtered by very high elderly percentage?,VR,na
+9_2_U169,9_2,U1,COVID vulnerability rank filtered by very high elderly percentage?,Vis,na
+9_2_U170,9_2,U1,"So, what do you think this chart is?",CR,V
+9_2_U171,9_2,U2,We are comparing the ratio of the access to doctors and elderly people.,N,na
+9_2_U172,9_2,U2,But how can we relate this to COVID?,CR,V
+9_2_U173,9_2,U2,It's not giving us any specific quantities.,N,na
+9_2_U174,9_2,U2,"It is telling us that the elderly population does have access to doctors, Right? Would you agree with me?",N,na
+9_2_U175,9_2,U1,"Yeah, definitely.",N,na
+9_2_U176,9_2,S,Map of county type,NS,na
+9_2_U177,9_2,U1,Can we have a contrast of elderly population and COVID vulnerability rank?,VR,na
+9_2_U178,9_2,S,Heatmap of covid vulnerability rank vs elderly percentage colored by num counties,NS,na
+9_2_U179,9_2,U1,"Okay, but if you are very specific about what elderly population requires, I could pull up something with a map, a real map.",N,na
+9_2_U180,9_2,S,Map of covid vulnerability rank,NS,na
+9_2_U181,9_2,U1,COVID vulnerability rank?,CR,V
+9_2_U182,9_2,U1,It's all gray.,N,na
+9_2_U183,9_2,U1,Didn't we just have this map before too?,CR,V
+9_2_U184,9_2,U1,"I think it's filtered by something, but I'm not sure what.",N,na
+9_2_U185,9_2,U2,"Yeah, indeed.",N,na
+9_2_U186,9_2,U2,It shouldn't be all gray.,N,na
+9_2_U187,9_2,U2,"From what we've discussed, I think southeast, southwest should be the first, Pacific should be second, and north and east should be third, right?",N,na
+9_2_U188,9_2,U1,"Yeah, and if we're going to, if we still have more resources, I would say the fourth would be Pacific.",N,na
+9_2_U189,9_2,U1,"For the third, we've already said Pacific second.",N,na
+9_2_U190,9_2,U1,"I think, can we have region map?",VR,na
+9_2_U191,9_2,U1,Map of region.,VR,na
+9_2_U192,9_2,U1,I think can we have a visualization of region map?,VR,na
+9_2_U193,9_2,U1,Visualization of region.,VR,na
+9_2_U194,9_2,U1,"I thought we agreed on southwest, southeast, And the third would be Alaska, and the fourth would be Pacific.",N,na
+9_2_U195,9_2,U2,"Okay, I thought it was going, but I was thinking more about the spread throughout the Pacific area, not generally in one area.",N,na
+9_2_U196,9_2,U2,Like over here you can see there's like six or seven counties or states which do have high COVID vulnerability.,N,na
+9_2_U197,9_2,U2,"But in Alaska, it's more, I guess it's not as much in the Pacific area too.",N,na
+9_2_U198,9_2,U2,So that's the reason why I've made it prioritize is Pacific over Alaska.,N,na
+9_2_U199,9_2,U2,Made it second priority.,N,na
+9_2_U200,9_2,U1,Okay.,N,na
+9_2_U201,9_2,U1,"So again, I think even in these regions, I would say the rural gets rural should get more resources.",N,na
+9_2_U202,9_2,U2,And small cities then get the second part second prioritization in that.,N,na
+9_2_U203,9_2,U1,And I think I still want to look at the map a rural map of COVID vulnerability.,Vis,na
+9_2_U204,9_2,U1,COVID vulnerability filtered by rural areas.,Vis,na
+9_2_U205,9_2,S,Bar chart of county type vs num counties colored by covid vulnerability rank,NS,na
+9_2_U206,9_2,U2,"Okay, so yeah, has the highest vulnerability, small cities are second and suburban have third and so on.",N,na
+9_2_U207,9_2,U1,"There are more in everything. I mean, even the very low COVID vulnerability rank.",N,na
+9_2_U208,9_2,U1,I think the rural population is obviously more than urban and suburban.,N,na
+9_2_U209,9_2,U1,"Let's not filter by rural, Let's just go with.",N,na
+9_2_U210,9_2,U2,"Yeah, so I think that's about it.",N,na
+9_2_U211,9_2,U1,"Yeah, so first goes Southwest and Southeast and Alaska and then Pacific.",N,na
+9_2_U212,9_2,U2,"Yeah, for me it was Pacific first, this one Alaska.",N,na
+9_2_U213,9_2,U1,"Oh, okay.",N,na
+9_2_U214,9_2,U1,"Okay, let's go with Pacific third.",N,na
+9_2_U215,9_2,U1,I also wanted to view uninsured,Vis,na
