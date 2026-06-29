@@ -10,11 +10,11 @@ Each utterance is annotated for whether it is a clarification request. Utterance
 
 ## Data Source and Annotation
 
-The dialogue data used in ClarVis comes from a prior user study on conversational data exploration and visualization:
+The dialogue data used in ClarVis comes from a prior user study on conversational data exploration and visualization discussed in the following paper:
 
 > Bhattacharya, A., Di Eugenio, B., Grosso, V., Johnson, A., Tabalba, R., Kirshenbaum, N., Leigh, J., and Zellner, M. (2024). [A Conversational Assistant for Democratization of Data Visualization: A Comparative Study of Two Approaches of Interaction](https://dl.acm.org/doi/10.1002/sam.11714). *Statistical Analysis and Data Mining*, 17(6).
 
-The source study is licensed under CC BY-NC 4.0. In that study, pairs of participants performed open-ended exploratory data analysis tasks over a COVID-19 dataset using a conversational assistant that generated visualizations from natural-language utterances. The system retrieved data from a structured database and produced maps, heat maps, bar charts, and line charts on a shared display.
+This source paper is licensed under CC BY-NC 4.0. In the user study discussed in the above paper, pairs of participants performed open-ended exploratory data analysis tasks over a COVID-19 dataset using a conversational assistant that generated visualizations from natural-language utterances. The system retrieved data from a structured database and produced maps, heat maps, bar charts, and line charts on a shared display.
 
 For ClarVis, the dialogue transcripts were collected, polished, de-identified, speaker-diarized, and annotated for CR identification and grounding modality. The released files in this repository contain the resulting master dataset and the train/validation/test splits used in the ClarVis experiments.
 
