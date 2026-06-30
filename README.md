@@ -2,11 +2,11 @@
 
 ClarVis is a task-oriented dialogue dataset for studying clarification requests (CRs) in collaborative data visualization dialogues. The dataset contains real-time, two-user collaborative data-exploration sessions in which participants interacted with a visualization-generating conversational assistant while working with COVID-19-related data.
 
-Each utterance is annotated for whether it is a clarification request. Utterances labeled as CRs are additionally annotated with the grounding modality that captures the context the clarification pertains to:
+Each utterance is annotated for whether it is a clarification request. Utterances labeled as CRs are additionally annotated with the real-world grounding modality that captures the context the CR pertains to:
 
-- `A`: Auditory, for clarification grounded in hearing, wording, or speech understanding.
-- `V`: Visual, for clarification grounded in what is visible in the shared visualization workspace.
-- `K`: Kinesthetic, for clarification grounded in actions, interface operations, system capabilities, or interaction flow.
+- `A`: Auditory, for CRs grounded in hearing, wording, or speech understanding.
+- `V`: Visual, for CRs grounded in what is visible in the shared visualization workspace.
+- `K`: Kinesthetic, for CRs grounded in actions, interface operations, system capabilities, or interaction flow.
 
 ## Data Source and Annotation
 
