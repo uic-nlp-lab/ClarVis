@@ -2,13 +2,13 @@
 
 ClarVis is a task-oriented dialogue dataset for studying clarification requests (CRs) in collaborative data visualization dialogues. The dataset contains real-time, two-user collaborative data-exploration sessions in which participants interacted with a visualization-generating conversational assistant while working with COVID-19-related data.
 
-Each utterance is annotated for whether it is a clarification request. For utterances labeled as CRs, we further annotate the source of the understanding problem that gave rise to the clarification. Following Benotti and Blackburn (2021), we treat CRs as grounded in the modality where positive evidence of understanding is missing. In ClarVis, each CR is assigned one of three real-world grounding modalities:
+Each utterance is annotated for whether it is a CR. For utterances labeled as CRs, we further annotate the source of the understanding problem that gave rise to the clarification. Following Benotti and Blackburn (2021), we treat CRs as grounded in the modality where positive evidence of understanding is missing. In ClarVis, each CR is assigned one of three real-world grounding modalities:
 
 - `A`: Auditory, for CRs grounded in hearing, wording, or speech understanding.
 - `V`: Visual, for CRs grounded in what is visible in the shared visualization workspace.
 - `K`: Kinesthetic, for CRs grounded in actions, interface operations, system capabilities, or interaction flow.
 
-The grounding-modality annotation scheme follows Benotti and Blackburn (2021), who frame clarification requests as grounded in situated modalities. For more details on grounded clarification requests and the annotation recipe, see [A recipe for annotating grounded clarifications](https://aclanthology.org/2021.naacl-main.320/) (Benotti & Blackburn, NAACL 2021).
+The grounding-modality annotation scheme follows Benotti and Blackburn (2021), who frame CRs as grounded in situated modalities. For more details on grounded CRs and the annotation recipe, see [A recipe for annotating grounded clarifications](https://aclanthology.org/2021.naacl-main.320/) (Benotti & Blackburn, NAACL 2021).
 
 ## Data Source and Annotation
 
@@ -30,7 +30,7 @@ For ClarVis, the dialogue transcripts were collected, polished, de-identified, s
 
 ## Dataset Size
 
-The master file contains 6,927 total turns across 29 dialogues. Of these, 445 utterances are annotated as clarification requests.
+The master file contains 6,927 total turns across 29 dialogues. Of these, 445 utterances are annotated as CRs.
 
 Grounding modality distribution for CRs in `cr_dataset_master.csv`:
 
@@ -50,7 +50,7 @@ Grounding modality distribution for CRs in `cr_dataset_master.csv`:
 | `utterance` | Dialogue turn text. For system rows, this is the generated visualization caption. |
 | `speaker` | Speaker identifier: `U1` and `U2` are the two users; `S` is the conversational assistant/system. |
 | `utterance_intent` | Utterance-level label. `CR` marks clarification requests. Other labels come from the original dialogue/visualization annotation pipeline, including visualization requests, system visualization outputs, and non-CR dialogue turns. |
-| `cr_directed_at` | For CRs, the target of the clarification request, such as `User`, `System`, or `System/User`; `na` for non-CR rows. |
+| `cr_directed_at` | For CRs, the target, such as `User`, `System`, or `System/User`; `na` for non-CR rows. |
 | `source_of_response` | Annotation of the response source for CR-related turns where available; `na` when not applicable. |
 | `grounding_modality` | Grounding label for CRs: `A`, `V`, or `K`; `na` for non-CR rows. |
 | `group_id` | Participant group identifier from the user study described in Bhattacharya et al. (2024). |
